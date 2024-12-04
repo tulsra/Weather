@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct WeatherDisplayView: View {
-    
     @Environment(RootViewModel.self) var vm: RootViewModel
     
     var body: some View {

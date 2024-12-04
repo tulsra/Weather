@@ -11,7 +11,6 @@ import Observation
 
 @Observable
 final class RootViewModel {
-    
     @ObservationIgnored private var disposeBag: Set<AnyCancellable> = []
     @ObservationIgnored private let sm: WeatherSearchServiceProtocol
     @ObservationIgnored private let lm: LocationManagerProtocol
@@ -72,10 +71,10 @@ final class RootViewModel {
     }
     
     func testFunc() {
-        // Test line develop - 10
-        // Test line develop - 20
-        // Test line develop - 30
-        // Test line develop - 40
-        // Test line develop - 50
+        // Test line develop - 11
+        // Test line develop - 21
+        // Test line develop - 31
+        // Test line develop - 41
+        // Test line develop - 51
     }
 }
