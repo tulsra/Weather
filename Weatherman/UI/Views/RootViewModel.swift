@@ -7,10 +7,10 @@
 
 import Combine
 import Foundation
+import Observation
 
 @Observable
 final class RootViewModel {
-    
     @ObservationIgnored private var disposeBag: Set<AnyCancellable> = []
     @ObservationIgnored private let sm: WeatherSearchServiceProtocol
     @ObservationIgnored private let lm: LocationManagerProtocol

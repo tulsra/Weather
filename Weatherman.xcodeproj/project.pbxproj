@@ -425,6 +425,7 @@
 				en,
 				Base,
 				es,
+				hi,
 			);
 			mainGroup = 007224832C66724D009CEF28;
 			productRefGroup = 0072248D2C66724D009CEF28 /* Products */;
