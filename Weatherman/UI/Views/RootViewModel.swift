@@ -69,4 +69,12 @@ final class RootViewModel {
     func getLocationDetails() {
         LocationManager().getLocationDetails()
     }
+    
+    func anotherTestFunc() {
+        // Test line feature - 1
+        // Test line develop - 2
+        // Test line develop - 3
+        // Test line develop - 4
+        // Test line develop - 5
+    }
 }
