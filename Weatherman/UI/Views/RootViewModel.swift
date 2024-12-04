@@ -71,10 +71,10 @@ final class RootViewModel {
     }
     
     func testFunc() {
-        // Test line develop - 11
-        // Test line develop - 21
-        // Test line develop - 31
-        // Test line develop - 41
-        // Test line develop - 51
+        // Test line feature - 1
+        // Test line feature - 2
+        // Test line feature - 3
+        // Test line feature - 4
+        // Test line feature - 5
     }
 }
