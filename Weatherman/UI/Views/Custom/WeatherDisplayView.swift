@@ -28,6 +28,7 @@ struct PlaceView: View {
         }
         else {
             GeometryReader { geometry in
+                
                 let columns =
                 // With GeometryReader
                 // (geometry.size.width > geometry.size.height )

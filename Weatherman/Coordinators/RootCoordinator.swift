@@ -16,7 +16,10 @@ final class RootCoordinator {
     private let dm: DataStoreManagerProtocol
     private let lm: LocationManagerProtocol
     
-    init(sm: ServiceManagerProtocol, dm: DataStoreManagerProtocol, lm: LocationManagerProtocol) {
+    init(sm: ServiceManagerProtocol,
+         dm: DataStoreManagerProtocol,
+         lm: LocationManagerProtocol
+    ) {
         self.sm = sm
         self.dm = dm
         self.lm = lm
@@ -38,7 +41,10 @@ final class MockRootCoordinator: RootCoordinatorProtocol {
     var sm: ServiceManagerProtocol
     var dm: DataStoreManagerProtocol
     var lm: LocationManagerProtocol
-    init(sm: ServiceManagerProtocol, dm: DataStoreManagerProtocol, lm: LocationManagerProtocol) {
+    init(sm: ServiceManagerProtocol,
+         dm: DataStoreManagerProtocol,
+         lm: LocationManagerProtocol
+    ) {
         self.sm = sm
         self.dm = dm
         self.lm = lm

@@ -27,6 +27,10 @@ final class WeathermanUITests: XCTestCase {
         app = nil
     }
     
+    override func tearDown() {
+        app = nil
+    }
+    
     func testNoDataTextAvailable() {
         let noDataText = app.staticTexts["no.data.available"]
         // Check if the  text is visible

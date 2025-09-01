@@ -40,6 +40,7 @@ final class WeatherSearchService {
     }
     
     private func updateData(model: WeatherModel) {
+        dump(model)
         Task { @MainActor [weak self] in
             guard let self = self else { return }
             await self.dm.saveWeatherData(model: model)
