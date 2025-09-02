@@ -11,6 +11,7 @@
 		003005A92CB76A4B00439F95 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003005A82CB76A4B00439F95 /* ImageDownloader.swift */; };
 		003005AB2CB76F8600439F95 /* ImageDownloaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003005AA2CB76F8600439F95 /* ImageDownloaderView.swift */; };
 		0051AE812C67F496008AAE3E /* WeatherDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051AE802C67F496008AAE3E /* WeatherDisplayModel.swift */; };
+		0069D7EE2E66604C0015608F /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D7ED2E6660460015608F /* NotificationManager.swift */; };
 		007224902C66724D009CEF28 /* WeathermanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072248F2C66724D009CEF28 /* WeathermanApp.swift */; };
 		007224942C667250009CEF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007224932C667250009CEF28 /* Assets.xcassets */; };
 		007224972C667250009CEF28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007224962C667250009CEF28 /* Preview Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		003005A82CB76A4B00439F95 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		003005AA2CB76F8600439F95 /* ImageDownloaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderView.swift; sourceTree = "<group>"; };
 		0051AE802C67F496008AAE3E /* WeatherDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDisplayModel.swift; sourceTree = "<group>"; };
+		0069D7ED2E6660460015608F /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		0072248C2C66724D009CEF28 /* Weatherman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weatherman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0072248F2C66724D009CEF28 /* WeathermanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeathermanApp.swift; sourceTree = "<group>"; };
 		007224932C667250009CEF28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				007224E22C66B48C009CEF28 /* Info.plist */,
+				0069D7ED2E6660460015608F /* NotificationManager.swift */,
 				007224C52C6680DD009CEF28 /* Dependencies */,
 				007224CB2C668217009CEF28 /* Coordinators */,
 				007224C62C668123009CEF28 /* UI */,
@@ -489,6 +492,7 @@
 				003005A92CB76A4B00439F95 /* ImageDownloader.swift in Sources */,
 				007224D32C668369009CEF28 /* RootViewModel.swift in Sources */,
 				00E8186C2C77A5E7002A326B /* WeatherDisplayView.swift in Sources */,
+				0069D7EE2E66604C0015608F /* NotificationManager.swift in Sources */,
 				007224CD2C668227009CEF28 /* RootCoordinator.swift in Sources */,
 				007224DA2C66974B009CEF28 /* APIClient.swift in Sources */,
 			);
